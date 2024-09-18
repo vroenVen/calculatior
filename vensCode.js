@@ -5,8 +5,8 @@ function copyInput(type=""){
 		document.getElementById("input").value = ""
 	} 
 	if (type=="paste") {
-		//pasteTxt = navigator.clipboard.readText()
-		//document.getElementById("input").value = pasteTxt
+		pasteTxt = navigator.clipboard.readText()
+		document.getElementById("input").value = pasteTxt
 	}
 	
 	copy(copyied)
