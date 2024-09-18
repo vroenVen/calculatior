@@ -6,4 +6,7 @@ Link to extension https://chromewebstore.google.com/detail/just-calculator/fhien
 Copy and addition to just calulator extension
 
 Adding copy and paste
- 
+
+ todo
+
+ remove copy from empty equations
