@@ -226,7 +226,7 @@
 
             var lineHtml = '<div class="' + type + '">';
             lineHtml += '<span class="prefix" data-prefix="' + prefix + '"></span>';
-            lineHtml += '<span class="data">' + data + '<button onclick=copy('+data+')>copy</button></span>';
+            lineHtml += '<span class="data">' + data + ' <button onclick=copyAnswer('+data+')>copy</button></span>';
             lineHtml += '</div>';
 
             html += lineHtml;
@@ -237,8 +237,3 @@
 
     window.Calque = Calque;
 })();
-
-function copy(input){
-	console.log("copied "+input+" to clipboard")
-	navigator.clipboard.writeText(input)
-}

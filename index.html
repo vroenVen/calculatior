@@ -5,11 +5,14 @@
     <script src="math.min.js"></script>
     <script src="calque.js"></script>
     <script src="popup.js"></script>
+	
+	<script src="vensCode.js"></script>
 </head>
 <body>
 	<p>This calculator is ripped from a chrome extension I used for a long time called "Just Calculator ;)"</p>
 	<a href="https://chromewebstore.google.com/detail/just-calculator/fhienojmjihbioapjpocpalfphjiakam?pli=1">link to Just Calculator</a>
     <p><button><a href="https://vroenven.github.io/">Home</a></button></p>
+	<p><button onclick="copyInput()">copy input</button><button onclick="copyInput('cut')">Cut Input</button><button onclick="copyInput('paste')">Paste Input</button></p>
 	<div class="interface">
         <div class="output" id="output"></div>
         <textarea class="input" id="input" spellcheck="false"></textarea>
