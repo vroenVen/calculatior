@@ -10,3 +10,5 @@ Adding copy and paste
  todo
 
  remove copy from empty equations
+
+ make sin cos tan do degree and radian
