@@ -14,13 +14,17 @@ body {
 }
 
 .interface {
-    position: absolute;
+	/*
+    Chaneing this to relative so that it flows better
+	position: absolute;
     top: 125;
-    right: 0;
+    */
+	
+	position: relative;
+	right: 0;
     bottom: 0;
     left: 0;
     height: 100%;
-	overflow: auto;
 }
 
 .interface .input, .interface .output {
@@ -35,6 +39,8 @@ body {
     padding: 15px;
     box-sizing: border-box;
     white-space: pre;
+	
+	overflow: auto;
 }
 
 .interface .input {
