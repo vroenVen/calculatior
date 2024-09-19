@@ -225,7 +225,9 @@
                 }
             };
             if (type === 'error') data = expression.error;
-
+			
+			if (type === 'error' && expression.code.slice(0, 2) == "//") data = ''; 
+			
 			if (hideCopyBool == true) {display = 'none';}
             var lineHtml = '<div class="' + type + '">';
             lineHtml += '<span class="prefix" data-prefix="' + prefix + '"></span>';
