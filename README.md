@@ -9,6 +9,10 @@ Adding copy and paste
 
  todo
 
- remove copy from empty equations
+☐ remove copy from empty equations
 
- make sin cos tan do degree and radian
+☐ show hide copy
+
+☐ make sin cos tan do degree and radian
+
+☐ Add a clear button
