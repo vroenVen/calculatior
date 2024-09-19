@@ -25,3 +25,31 @@ async function paste(input) {
   const text = await navigator.clipboard.readText();
   input.value = text;
 }
+
+
+function showHideCopy(){
+	var showHideCopyHTML = document.getElementById("showHideCopy")
+	/*
+	hideCopyBool
+	true = hide Copy buttons & set button text to show
+	false = show Copy buttons & set button text to hide
+	*/
+	if(showHideCopyHTML.innerHTML == "Show"){
+		hideCopyBool = false
+		
+	} else if(showHideCopyHTML.innerHTML == "Hide"){
+		hideCopyBool = true
+	} else {
+		//catches if button changed text in some other way
+		console.log("ShowHideCopy Button Text changed Why did you do that")
+		showHideCopyHTML.innerHTML
+		hideCopyBool = true
+	}
+	if (hideCopyBool == true){
+		showHideCopyHTML.innerHTML = "Show"
+	} else {
+		showHideCopyHTML.innerHTML = "Hide"
+	}
+	
+	
+}

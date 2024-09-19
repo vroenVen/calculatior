@@ -212,6 +212,7 @@
             if (type === 'error') prefix += '// ';
 
             var data = '';
+			var display = 'none';
             if (type === 'result') {
                 if (expression.result === null) {
                     data = 'null';
@@ -220,13 +221,14 @@
                     data = '';
                 } else {
                     data = expression.result.toString();
+					display = "inline"
                 }
             };
             if (type === 'error') data = expression.error;
 
             var lineHtml = '<div class="' + type + '">';
             lineHtml += '<span class="prefix" data-prefix="' + prefix + '"></span>';
-            lineHtml += '<span class="data">' + data + ' <button onclick=copyAnswer('+data+')>copy</button></span>';
+            lineHtml += '<span class="data">' + data + ' <button onclick=copyAnswer('+data+') style="display: '+display+'" >copy</button></span>';
             lineHtml += '</div>';
 
             html += lineHtml;
