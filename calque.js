@@ -226,6 +226,7 @@
             };
             if (type === 'error') data = expression.error;
 
+			if (hideCopyBool == true) {display = 'none';}
             var lineHtml = '<div class="' + type + '">';
             lineHtml += '<span class="prefix" data-prefix="' + prefix + '"></span>';
             lineHtml += '<span class="data">' + data + ' <button onclick=copyAnswer('+data+') style="display: '+display+'" >copy</button></span>';

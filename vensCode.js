@@ -1,4 +1,7 @@
-
+init()
+function init(){
+	hideCopyBool = false
+}
 function copyInput(type=""){
 	var copyied = document.getElementById("input").value
 	if (type=="cut"){
@@ -50,6 +53,6 @@ function showHideCopy(){
 	} else {
 		showHideCopyHTML.innerHTML = "Hide"
 	}
-	
-	
+	//refresh screen so that the changes get shown
+	calque.repaint()
 }
