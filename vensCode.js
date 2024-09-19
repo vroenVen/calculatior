@@ -24,6 +24,10 @@ function copy(input){
 	console.log("copied "+input+" to clipboard")
 }
 
+function clearInput(){
+	document.getElementById("input").value = ""
+}
+
 async function paste(input) {
   const text = await navigator.clipboard.readText();
   input.value = text;

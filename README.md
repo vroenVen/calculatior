@@ -15,4 +15,4 @@ Adding copy and paste
 
 ☐ make sin cos tan do degree and radian
 
-☐ Add a clear button
+☑ Add a clear button
