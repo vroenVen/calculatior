@@ -7,7 +7,7 @@ Copy and addition to just calulator extension
 
 Adding copy and paste
 
- todo
+ todo ☐ 
 
 ☑ remove copy from empty equations
 
@@ -16,3 +16,5 @@ Adding copy and paste
 ☐ make sin cos tan do degree and radian
 
 ☑ Add a clear button
+
+☐ Export and import txt files
