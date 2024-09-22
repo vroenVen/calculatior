@@ -13,8 +13,10 @@ Adding copy and paste
 
 ☑ show hide copy
 
-☐ make sin cos tan do degree and radian
+☐ make sin cos tan do degree and radian - https://mathjs.org/examples/browser/angle_configuration.html.html
 
 ☑ Add a clear button
 
 ☐ Export and import txt files
+
+☐ tabs for different calculations
