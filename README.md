@@ -20,3 +20,5 @@ Adding copy and paste
 ☐ Export and import txt files
 
 ☐ tabs for different calculations
+
+☐ add graphs https://cdnjs.com/libraries/Chart.js
