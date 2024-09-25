@@ -21,4 +21,4 @@ Adding copy and paste
 
 ☐ tabs for different calculations
 
-☐ add graphs https://cdnjs.com/libraries/Chart.js
+☐ add graphs https://cdnjs.com/libraries/Chart.js  - https://github.com/AaronHe7/graphing-calculator
